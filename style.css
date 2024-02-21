@@ -1,0 +1,55 @@
+body {
+    background-color: hotpink;
+    margin: 0px;
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+}
+
+#businessCard {
+    height: 400px;
+    width: 400px;
+    margin: 20px;
+    padding: 20px;
+    background-color: powderblue;
+    align-content: center;
+    border-radius: 20px;
+}
+
+.photo img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    margin-left: 140px;
+}
+
+.description {
+    text-align: center;
+}
+
+.description > h1 {
+    color: grey;
+}
+.description > p {
+    color: tomato;
+    font-weight: bold;
+    font-family: tahoma;
+}
+
+.icons {
+    display: flex;
+    
+}
+
+.icons img {
+    margin: 0px 30px;
+}
+
+.icons button {
+    color: khaki;
+    background-color: grey;
+    height: rem;
+    padding: 4px;
+    border-radius: 10px;
+    margin-left: 50px;
+}
